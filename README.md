@@ -1,4 +1,4 @@
-# BurpSuiteCN 汉化加载器
+# BurpSuiteCN 汉化启动器
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-21+-orange.svg" alt="技术栈"/>
