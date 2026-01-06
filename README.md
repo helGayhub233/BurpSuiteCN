@@ -15,8 +15,6 @@
 java -jar burpsuiteloader.jar
 ```
 
-启动后会显示 Keygen 界面，可生成许可证密钥。
-
 ### 方式二：JavaAgent 方式
 
 ```bash
