@@ -7,6 +7,8 @@
   <a href="https://github.com/helGayhub233/BurpSuiteCN/releases"><img src="https://img.shields.io/github/downloads/helGayhub233/BurpSuiteCN/total" alt="下载次数"/></a>
 </p>
 
+<img src="https://github.com/helGayhub233/BurpSuiteCN/blob/main/demo.png" />
+
 ## 📦 快速开始
 
 ### 一键启动（推荐）
