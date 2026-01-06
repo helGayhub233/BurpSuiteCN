@@ -9,26 +9,20 @@
 
 ## 📦 快速开始
 
-### 方式一：一键启动（推荐）
+### 一键启动（推荐）
 
-```bash
-java -jar burpsuiteloader.jar
+1. 在 Burp Suite 安装目录中找到并编辑 `vmoptions.txt`
+2. 新增一行：
+
+```
+-javaagent:/绝对路径/burpsuiteloader.jar=loader,chs
 ```
 
-### 方式二：JavaAgent 方式
+3. 配置完成后，直接使用官方方式启动 Burp：
+   - 双击 Burp Suite 应用
+   - 或使用官方启动脚本 / 快捷方式
 
-```bash
-# 激活 + 汉化
-java -javaagent:burpsuiteloader.jar=loader,chs -jar burpsuite_pro.jar
-
-# 仅激活
-java -javaagent:burpsuiteloader.jar=loader -jar burpsuite_pro.jar
-
-# 仅汉化
-java -javaagent:burpsuiteloader.jar=chs -jar burpsuite_pro.jar
-```
-
----
+**无需额外命令，Agent 会在 JVM 启动时自动生效。**
 
 
 ## ⚠️ 免责声明
