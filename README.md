@@ -11,8 +11,9 @@
 
 ## 📦 快速开始
 
-1. 在 Burp Suite 安装目录中找到并编辑 `vmoptions.txt`
-2. 编辑现有条目或新增：
+1. 将Jar文件放置在程序目录 `mv burpsuiteloader.jar`
+2. 在 Burp Suite 安装目录中找到并编辑 `vmoptions.txt`
+3. 编辑现有条目或新增条目：
 
 ```
 --add-opens=java.base/java.lang=ALL-UNNAMED
@@ -21,12 +22,15 @@
 --add-opens=java.base/java.util=ALL-UNNAMED
 --add-opens=java.base/java.security=ALL-UNNAMED
 --enable-native-access=ALL-UNNAMED
--javaagent:/绝对路径/burpsuiteloader.jar=loader,chs
+
+-javaagent:burpsuiteloader.jar=loader,chs
 ```
 
 3. 配置完成后，直接使用以下方式启动：
    - 双击 Burp Suite 应用
    - 启动脚本 / 快捷方式
+  
+> 注意：为确保`问题定义`字段匹配，建议将程序字体改为: 10
 
 ## ⚠️ 免责声明
 
