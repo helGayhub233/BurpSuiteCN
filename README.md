@@ -1,4 +1,4 @@
-# BurpSuiteCN 汉化启动器
+<h1 align="center">BurpSuiteCN 汉化启动器</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-21+-orange.svg" alt="技术栈"/>
@@ -10,8 +10,6 @@
 <img src="https://github.com/helGayhub233/BurpSuiteCN/blob/main/demo.png" />
 
 ## 📦 快速开始
-
-### 一键启动（推荐）
 
 1. 在 Burp Suite 安装目录中找到并编辑 `vmoptions.txt`
 2. 新增一行：
