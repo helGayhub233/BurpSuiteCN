@@ -12,9 +12,15 @@
 ## 📦 快速开始
 
 1. 在 Burp Suite 安装目录中找到并编辑 `vmoptions.txt`
-2. 编辑现有条目或新增一行：
+2. 编辑现有条目或新增：
 
 ```
+--add-opens=java.base/java.lang=ALL-UNNAMED
+--add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+--add-opens=java.base/java.io=ALL-UNNAMED
+--add-opens=java.base/java.util=ALL-UNNAMED
+--add-opens=java.base/java.security=ALL-UNNAMED
+--enable-native-access=ALL-UNNAMED
 -javaagent:/绝对路径/burpsuiteloader.jar=loader,chs
 ```
 
