@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-21+-orange.svg" alt="技术栈"/>
-  <img src="https://img.shields.io/badge/Burp-2025.x-purple.svg" alt="支持版本"/>
+  <img src="https://img.shields.io/badge/Burp-2026.x-purple.svg" alt="支持版本"/>
   <img src="https://visitor-badge.laobi.icu/badge?page_id=helGayhub233.BurpSuiteCN" alt="访问次数"/>
   <a href="https://github.com/helGayhub233/BurpSuiteCN/releases"><img src="https://img.shields.io/github/downloads/helGayhub233/BurpSuiteCN/total" alt="下载次数"/></a>
 </p>
