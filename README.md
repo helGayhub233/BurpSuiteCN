@@ -55,6 +55,12 @@
    - 双击 Burp Suite 应用
    - 启动脚本 / 快捷方式
 
+## 🚨 注意事项
+
+MacOS用户如遇到文件损坏，请在终端执行：
+
+> sudo xattr -cr /Applications/Burp\ Suite.app
+
 ## ⚠️ 免责声明
 
 本项目仅供学习交流使用，请支持正版软件。
